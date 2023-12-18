@@ -12,6 +12,10 @@ h2{
     font-weight: bold;
     color: white;
 }
+h3{
+    font-family: 'Poppins', sans-serif;
+    font-weight: bold;
+}
 p{
     font-family: 'Poppins', sans-serif;
     color: white;
