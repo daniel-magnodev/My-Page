@@ -2,7 +2,20 @@
 body{
     background-color:#1b011b;
 }
+header{
+    background: linear-gradient(#4c0e479f, #360730ad);
+    padding: 10px;
+    border-radius: 6px;
+    display: flex;
+    justify-content: space-between;
+}
+img{
+    max-width: 100%;
+    height: auto;
+}
 main{
+    background-color: rgba(128, 128, 128, 0.116);
+    border-radius: 5px;
 
 }
 nav{
@@ -14,6 +27,7 @@ nav{
 
 }
 nav > a{
+    text-align: center;
     text-decoration: none;
     margin-right: 20px;
 }
@@ -29,7 +43,6 @@ h1{
     font-weight: 900;
     font-family: 'Poppins', sans-serif;
     color: white;
-    box-shadow: 2px 2px 0px 0px #1b011bb9;
     padding: 10px;
 }
 h2{
@@ -45,6 +58,7 @@ h3{
     padding: 10px;
 }
 p{
+    text-align: justify;
     font-family: 'Poppins', sans-serif;
     color: white;
     padding: 10px;
@@ -59,7 +73,11 @@ a{
     color: white;
 }
 aside{
+    border-radius: 5px;
     background-color: rgba(128, 128, 128, 0.11);
+    text-align: center;
+}
+aside > p{
     text-align: center;
 }
 footer{
