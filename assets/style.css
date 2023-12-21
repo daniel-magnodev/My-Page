@@ -1,13 +1,11 @@
 @charset "UTF-8";
 body{
-    background-color:#1b011b;
+    background-color:#4c0e47;
 }
 header{
-    background: linear-gradient(#4c0e479f, #360730ad);
-    padding: 10px;
-    border-radius: 6px;
+    background-color: #4c0e47;
+    padding: 40px;
     display: flex;
-    justify-content: space-between;
 }
 img{
     max-width: 100%;
@@ -16,27 +14,29 @@ img{
 }
 main{
     text-align: center;
-    background-color: #D62EB9;
-    border-radius: 10px;
+    background: linear-gradient(to right, #7923CD, #9C27C5, #D82EB9);
+    border-radius: 30px;
+    padding: 10px;
 
 }
 nav{
     font-family: 'Poppins',sans-serif;
     font-weight: bold;
-    text-align: center;
+    text-align: right;
     margin-right: 20px;
+    padding-left: 400px;
+    display: block;
 
 
 }
 nav > a{
-    text-align: center;
+    text-align: right;
     text-decoration: none;
     margin-right: 20px;
 }
 nav > a:hover{
-    color:#1b011bc2 ;
+    color: #D82EB9 ;
     border-radius: 5px;
-    background-color: yellow;
     text-decoration: none;
 }
 span#mname{
@@ -93,7 +93,7 @@ a{
 }
 aside{
     border-radius: 5px;
-    background-color: rgba(128, 128, 128, 0.11);
+    background-color: #4c0e47;
     text-align: center;
 }
 aside > p{
@@ -102,7 +102,7 @@ aside > p{
 footer{
     text-align: center;
     padding: 0.7px;
-    background-color: rgba(128, 128, 128, 0.116);
+    background-color:#4c0e47;
     color: white;
     font-family: 'Poppins', sans-serif;
 }
