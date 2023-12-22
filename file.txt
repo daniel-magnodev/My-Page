@@ -1,0 +1,9 @@
+<div id="compmo">
+                👨🏽‍💻
+            </div>
+            <div id="rinomo">
+                🦏
+            </div>
+            <div id="atommo">
+                ⚛️
+            </div>

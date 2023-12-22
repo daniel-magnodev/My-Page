@@ -8,23 +8,38 @@
 }
 body{
     max-width: 100%;
-    background-color:#1f021c;
+    background-color:#191414;
 }
 header{
-    max-width: 100%;
-    background-color: #1f021c;
-    padding: 60px;
-    display: flex;
+    background-color: #191414;
+}
+#oque > h2 {
+    font-size: 100px;
+    padding: -10px;
+    font-weight: 900;
+}
+#dnv > h2 {
+    font-size: 100px;
+    padding: -10px;
+    font-weight: 900;
+}
+div#dnv{
+    font-size: 100px;
+    right: 10%;
+    bottom: 10%;
+}
+div#oque{
+    font-size: 50px;
+    padding: -10px;
 }
 div#rinomo{
     display: block;
     align-items: center;
     justify-content: center;
-    position: relative;
     border-radius: 100%;
     background-color: rgba(128, 128, 128, 0.288);
-    padding: 12px 14px;
     position: absolute;
+    padding: 12px 14px;
     flex-grow: 1;
     bottom: 40%;
     font-size: 70px;
@@ -68,52 +83,23 @@ img{
 }
 main{
     text-align: center;
-    background: linear-gradient(to right, #7923CD, #9C27C5, #D82EB9);
+    background: linear-gradient(to right, #006630,#1db954, #1ed760);
     border-radius: 30px;
     padding: 10px;
-
 }
 nav{
-    font-family: 'Poppins',sans-serif;
-    font-weight: bold;
-    text-align: right;
-    margin-right: 20px;
-    padding-left: 300px;
-    display: inline-block;
-    font-size: 20px;
-}
-nav > a{
-    text-align: right;
-    text-decoration: none;
-    margin-right: 20px;
-}
-nav > a:hover{
-    color: #D82EB9 ;
-    border-radius: 5px;
-    text-decoration: none;
-}
-span#mname{
-    font-size: 30px;
-    font-family: 'Poppins',sans-serif;
-    color: white;
-    font-weight: 600;
-    
 
 }
-span#dev{
-    display: block;
-    font-family: 'Poppins',sans-serif;
-    color: white;
-    font-size: 25px;
-    font-weight: 510;
-    
+nav > a{
+
+}
+nav > a:hover{
+    color: #1ed760 ;
+    text-decoration: none;
 }
 h1{
-    text-align: center;
-    font-weight: 900;
     font-family: 'Poppins', sans-serif;
     color: white;
-    padding: 10px;
 }
 h2{
     display: block;
@@ -165,7 +151,7 @@ a{
 }
 aside{
     border-radius: 5px;
-    background-color: #1f021c;
+    background-color: #191414;
     text-align: center;
 }
 aside > p{
@@ -174,7 +160,7 @@ aside > p{
 footer{
     text-align: center;
     padding: 0.7px;
-    background-color:#1f021c;
+    background-color:#191414;
     color: white;
     font-family: 'Poppins', sans-serif;
 }
