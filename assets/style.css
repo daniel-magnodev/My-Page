@@ -1,11 +1,65 @@
 @charset "UTF-8";
+
+@keyframes balance{
+    0%{
+        transform: rotate(20deg) ;
+    }
+    
+}
 body{
-    background-color:#4c0e47;
+    max-width: 100%;
+    background-color:#1f021c;
 }
 header{
-    background-color: #4c0e47;
-    padding: 40px;
+    max-width: 100%;
+    background-color: #1f021c;
+    padding: 60px;
     display: flex;
+}
+div#rinomo{
+    display: block;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    border-radius: 100%;
+    background-color: rgba(128, 128, 128, 0.288);
+    padding: 12px 14px;
+    position: absolute;
+    flex-grow: 1;
+    bottom: 40%;
+    font-size: 70px;
+    transform: rotate(-20deg);
+    animation: balance 900ms linear alternate 150ms infinite;
+}
+div#atommo{
+    display: block;
+    align-items: center;
+    justify-content: center;
+    border-radius: 100%;
+    background-color: rgba(128, 128, 128, 0.288);
+    padding: 12px 14px;
+    position: absolute;
+    flex-grow: 1;
+    bottom: 45%;
+    left: 85%;
+    font-size: 90px;
+    transform: rotate(-20deg);
+    animation: balance 900ms linear alternate 150ms infinite;
+}
+div#compmo{
+    display: block;
+    align-items: center;
+    justify-content: center;
+    border-radius: 100%;
+    background-color: rgba(128, 128, 128, 0.288);
+    padding: 12px 14px;
+    position: absolute;
+    flex-grow: 1;
+    bottom: 3px;
+    right: 15%;
+    font-size: 70px;
+    transform: rotate(-20deg);
+    animation: balance 900ms linear alternate 150ms infinite;
 }
 img{
     max-width: 100%;
@@ -24,10 +78,9 @@ nav{
     font-weight: bold;
     text-align: right;
     margin-right: 20px;
-    padding-left: 400px;
-    display: block;
-
-
+    padding-left: 300px;
+    display: inline-block;
+    font-size: 20px;
 }
 nav > a{
     text-align: right;
@@ -48,6 +101,7 @@ span#mname{
 
 }
 span#dev{
+    display: block;
     font-family: 'Poppins',sans-serif;
     color: white;
     font-size: 25px;
@@ -62,6 +116,24 @@ h1{
     padding: 10px;
 }
 h2{
+    display: block;
+    text-align: center;
+    font-size: 60px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: bold;
+    color: white;
+    padding: 10px;
+}
+h2#headt{
+    text-align: center;
+    padding: 50px;
+}
+h2#headt2{
+    
+}
+h2#maint{
+    display: block;
+    text-align: center;
     font-size: 60px;
     font-family: 'Poppins', sans-serif;
     font-weight: bold;
@@ -93,7 +165,7 @@ a{
 }
 aside{
     border-radius: 5px;
-    background-color: #4c0e47;
+    background-color: #1f021c;
     text-align: center;
 }
 aside > p{
@@ -102,7 +174,7 @@ aside > p{
 footer{
     text-align: center;
     padding: 0.7px;
-    background-color:#4c0e47;
+    background-color:#1f021c;
     color: white;
     font-family: 'Poppins', sans-serif;
 }
